@@ -1,0 +1,36 @@
+td a img {
+    
+    margin: 83px;
+    transition: 0.5s;
+    border: 3px solid #ffffff80;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #555;
+}
+
+td a img:hover {
+    transform: scale(1.01);
+    transition: 0.5s;
+}
+
+td div {
+    padding: 10px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    transition: 0.25s;
+    display: block;
+}
+
+td div:hover {
+    transform: scale(1.05);
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
